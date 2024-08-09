@@ -11,5 +11,7 @@ public class CounterTester{
         System.out.printf("Decremented counter value: %d%n", c.getValue());
         c.reset();
         System.out.printf("Reset counter value: %d%n", c.getValue());
+        c = new Counter();
+        System.out.printf("New counter value: %d%n", c.getValue());
     }
 }
