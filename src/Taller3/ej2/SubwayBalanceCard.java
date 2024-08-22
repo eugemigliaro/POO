@@ -1,6 +1,6 @@
-package Taller2.ej3;
+package Taller3.ej2;
 
-public class SubwayBalanceCard extends SubwayCard{
+public class SubwayBalanceCard extends SubwayCard {
     private int balance;
 
     public SubwayBalanceCard(SubwayCentral central){
@@ -20,12 +20,11 @@ public class SubwayBalanceCard extends SubwayCard{
     public boolean canTravel(){
         return balance >= getTicketPrice();
     }
-    public boolean travel(){
+    public void travel() throws CannotRideException{
         if(canTravel()){
             removeBalance(getTicketPrice());
-            return true;
+            return;
         }
-        System.out.println("No tienes saldo suficiente");
-        return false;
+        throw new CannotRideException();
     }
 }

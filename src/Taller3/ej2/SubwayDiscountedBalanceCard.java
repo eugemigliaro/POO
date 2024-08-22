@@ -1,7 +1,6 @@
-package Taller2.ej4;
-import Taller2.ej3.*;
+package Taller3.ej2;
 
-public class SubwayDiscountedBalanceCard extends SubwayBalanceCard{
+public class SubwayDiscountedBalanceCard extends SubwayBalanceCard {
     private final int discount;
 
     public SubwayDiscountedBalanceCard(SubwayCentral central, int discount) {

@@ -1,4 +1,4 @@
-package Taller2.ej3;
+package Taller3.ej2;
 
 public class SubwayTripsCard extends SubwayCard {
     private int trips;
@@ -7,17 +7,17 @@ public class SubwayTripsCard extends SubwayCard {
         this.trips = trips;
     }
 
-    public boolean canTravel() {
+    public boolean canTravel(){
         return trips > 0;
     }
 
-    public boolean travel(){
+    public void travel() throws CannotRideException{
         if(canTravel()){
             trips--;
-            return true;
+            return;
         }
-        System.out.println("No hay viajes disponibles");
-        return false;
+
+        throw new CannotRideException();
     }
 
     public int getTrips(){
