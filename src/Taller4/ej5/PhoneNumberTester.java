@@ -62,7 +62,7 @@ public class PhoneNumberTester {
         /**
          * 6. Orden inverso al natural
          */
-        Arrays.sort(phoneNumbers, Comparator.reverseOrder());
+        Arrays.sort(phoneNumbers, Comparator.reverseOrder());//PAMPU ESTO ES A LO QUE SE REFERÍA EL PROFE CON LA MEJOR MANERA DE SACAR ORDEN INVERSO AL DE COMPARETO
         System.out.println(Arrays.toString(phoneNumbers));
     }
 
