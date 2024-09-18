@@ -13,7 +13,7 @@ Esta clase debe contar con métodos para consultar los episodios de la temporada
 Implementar TVSeason y todo lo necesario para que, con el siguiente programa de prueba, se obtenga la salida indicada en los comentarios:
 */
 
-public class TVEpisode {
+public class TVEpisode{
     private final int id;
     private final String title;
     private final double rating;
@@ -40,5 +40,10 @@ public class TVEpisode {
 
     public LocalDate getAiredDate(){
         return airedDate;
+    }
+
+    @Override
+    public String toString(){
+        return "(" + id + ") Episode " + title + " aired on " + airedDate + " has " + rating + " rating";
     }
 }
