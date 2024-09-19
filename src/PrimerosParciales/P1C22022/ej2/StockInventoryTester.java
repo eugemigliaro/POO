@@ -1,5 +1,8 @@
 package PrimerosParciales.P1C22022.ej2;
 
+import java.util.Iterator;
+import java.util.function.Predicate;
+
 public class StockInventoryTester {
     public static void main(String[] args) {
        // Se instancia un inventario
