@@ -20,10 +20,12 @@ a partir de un pago mensual, obtener una cierta cantidad de millas cada mes.
  Completar los ...................., implementar MilesClient y todo lo necesario para que,
  con el siguiente programa de prueba, se obtenga la salida en los comentarios. */
 
+import java.util.Iterator;
+
 public class MilesClientTester {
     public static void main(String[] args) {
        // El cliente "Chuck" se suscribe por 4 meses al plan Club 2000
-       MilesClient chuck = new MilesClient("Chuck", 4, ....................);
+       MilesClient chuck = new MilesClient("Chuck", 4, Plan.CLUB2000);
        // Se imprime el extracto de cada mes del cliente "Chuck"
        // para todos los meses suscriptos
        // Por el plan elegido los 2 primeros meses tendrá millas bonus
@@ -33,7 +35,7 @@ public class MilesClientTester {
        System.out.println("##########");
 
        // El cliente "Sarah" se suscribe por 2 meses al plan Club 1000
-       MilesClient sarah = new MilesClient("Sarah", 2, ....................);
+       MilesClient sarah = new MilesClient("Sarah", 2, Plan.CLUB1000);
        // Se imprime el extracto de cada mes del cliente "Sarah"
        // para todos los meses suscriptos
        Iterator<String> sarahIt = sarah.iterator();
@@ -51,7 +53,7 @@ public class MilesClientTester {
        System.out.println("##########");
 
        // El cliente "Morgan" se suscribe por 6 meses al plan Club 5000
-       MilesClient morgan = new MilesClient("Morgan", 6, ....................);
+       MilesClient morgan = new MilesClient("Morgan", 6, Plan.CLUB5000);
        // Se imprime el extracto de cada mes del cliente "Morgan"
        // para los 4 primeros meses
        // Por el plan elegido los 5 primeros meses tendrá millas bonus
