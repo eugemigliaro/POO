@@ -16,7 +16,7 @@ package PrimerosParciales.P1C12022.ej2;
 * se obtenga la salida indicada en los comentarios. */
 
 public class DictionaryTester {
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
        // Crea un diccionario donde la "palabra" es de tipo String
        Dictionary<String> stringDict = new Dictionary<>();
        stringDict.addEntry("work", "something done or made")
@@ -108,7 +108,7 @@ public class DictionaryTester {
        public Employee(String name) {
            super(name);
        }
-   }
+   }*/
 }
 
 /*
