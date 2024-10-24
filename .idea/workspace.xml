@@ -5,21 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d18e2da-76b3-45bd-a8eb-ca0af72b343c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Taller10/ej1/counter.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Taller10/ej1/counter_tester.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Taller10/ej4/counter.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Taller10/ej4/counter_tester.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Taller10/ej4/multiple_counter.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Taller10/ej5/a.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Taller10/ej5/b.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Taller10/ej5/c.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Taller10/ej5/tester.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/POO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/POO.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Taller11/ej1/product.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Taller11/ej1/tester.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Taller11/ej1/ticket.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Taller11/ej2/product.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Taller11/ej2/tester.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Taller11/ej2/ticket.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Taller11/ej3/item.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Taller11/ej3/product.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Taller11/ej3/tester.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Taller11/ej3/ticket.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Ruby Class" />
         <option value="Ruby File" />
+        <option value="Ruby Class" />
       </list>
     </option>
   </component>
@@ -51,6 +47,7 @@
     "Ruby.counter_tester.executor": "Run",
     "Ruby.holaa.executor": "Run",
     "Ruby.tester.executor": "Run",
+    "Ruby.ticket.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.codeium.enabled": "true",
@@ -63,7 +60,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "ruby.structure.view.model.defaults.configured": "true",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "com.maddyhome.idea.vim.ui.VimEmulationConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -227,9 +224,24 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/src/Taller11/ej3/ticket.rb</url>
+          <line>31</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/POO@counter_tester.rcov" NAME="counter_tester Coverage Results" MODIFIED="1729800993369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="POO" />
-    <SUITE FILE_PATH="coverage/POO@tester.rcov" NAME="tester Coverage Results" MODIFIED="1729801751753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="POO" />
+    <SUITE FILE_PATH="coverage/POO@tester.rcov" NAME="tester Coverage Results" MODIFIED="1729810693942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="POO" />
+    <SUITE FILE_PATH="coverage/POO@ticket.rcov" NAME="ticket Coverage Results" MODIFIED="1729810824068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="POO" />
     <SUITE FILE_PATH="coverage/POO@holaa.rcov" NAME="holaa Coverage Results" MODIFIED="1729255806678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="POO" />
   </component>
 </project>
