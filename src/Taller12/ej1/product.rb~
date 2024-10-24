@@ -15,4 +15,8 @@ class Product
     def hash
         [name, price].hash
     end
+
+    def to_s
+        "#{@name} $#{@price}"
+    end
 end
